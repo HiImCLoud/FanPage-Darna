@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darna | Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+    <link rel="shortcut icon" href="pic/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css"
+        integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="pic/logo.png" alt="Logo" width="30" height="30"> Darna
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: white; border-radius: 5px;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#origin">Origin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#powers">Powers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#media">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">Welcome to Darna's World</h1>
+                    <p class="carousel-description">Empowering Heroes, Inspiring Change</p>
+                </div>
+                <img src="pic/1.png" class="d-block w-100" alt="cover">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">Join the Fight</h1>
+                    <p class="carousel-description">Become the hero of your story</p>
+                </div>
+                <img src="pic/2.png" class="d-block w-100" alt="cover">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">Unite for Justice</h1>
+                    <p class="carousel-description">Together, we are unstoppable</p>
+                </div>
+                <img src="pic/3.png" class="d-block w-100" alt="cover">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section id="origin" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center">Origin</h2>
+            <p class="lead text-center">
+                <svg width="100%" height="2" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="25%" y1="1" x2="75%" y2="1" stroke="maroon" stroke-width="2" />
+                </svg>
+            </p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card shadow-lg">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 p-4">
+                                <div class="card-body">
+                                    <p class="card-text">Darna (Tagalog pronunciation: [ˈdaɾnɐ]) is
+                                        a superhero appearing in Filipino comic books created by writer Mars
+                                        Ravelo and artist Nestor Redondo. The character was introduced during
+                                        the Golden Age of Comic Books, debuting in Pilipino Komiks #77 on May
+                                        13, 1950. Darna is a retooling of Ravelo's earlier character, Varga, who
+                                        first appeared in 1947. With her continued presence in literature and
+                                        art, Darna has been described as a Filipino cultural icon. Throughout
+                                        the years, she has been adapted to a number of media platforms, such as
+                                        film, television, plays, and video games.</p>
+                                    <p class="card-text text-justify">Darna's origin story from the Golden Age
+                                        relates that she was an extraterrestrial warrior from the planet Marte
+                                        sent to Earth to fight against common criminals and greater forces of
+                                        darkness, most famously her archenemy, Valentina. She is manifested by
+                                        her human alter-ego Narda through the magical stone and is often
+                                        accompanied by her younger brother, Ding. Darna possesses the allure of
+                                        Venus, the glory of Apollo, and strength of Samson. She usually wears a
+                                        red bikini or shorts with a gold star in each brassiere cap; a red
+                                        helmet with encrusted gold winged medallion; gold bracelets; a golden
+                                        medallion belt with a loincloth in the middle; and gold-rimmed red
+                                        boots.</p>
+                                    <p class="card-text text-justify">Darna is described as "the female avenger
+                                        archetype, strong but compassionate." Inspired by the qualities of
+                                        Ravelo's mother who raised him single-handedly and created as the
+                                        Philippine female counterpart of Superman, she served as a symbol of
+                                        hope and inspiration to the Filipino people following the aftermath of
+                                        World War II.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                <img src="pic/origin.png" alt="Darna" class="img-fluid m-3">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <hr>
+
+    <section id="powers" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center">Powers</h2>
+            <p class="lead text-center">
+                <svg width="100%" height="2" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="25%" y1="1" x2="75%" y2="1" stroke="maroon" stroke-width="2" />
+                </svg>
+            </p>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-infinity" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Superhuman Strength</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-shield-lock" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Nigh-Invulnerability</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-speedometer" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Speed</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-eye" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Enhanced Senses</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-airplane" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Flight</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-hourglass" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Longevity</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-shield" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Skilled Warrior</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-hurricane" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Telepathy</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-wind" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Aerokinesis</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-bounding-box" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Agility</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-arrow-repeat" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Reflexes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-hypnotize" style="font-size: 60px; color: maroon;"></i>
+                            <h5 class="card-title">Memory Manipulation</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="media" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center">Media</h2>
+            <p class="lead text-center"> <svg width="100%" height="2" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="25%" y1="1" x2="75%" y2="1" stroke="maroon" stroke-width="2" />
+                </svg> </p>
+            <div class="container mt-5">
+                <table id="myTable" class="display">
+                    <thead class="bg-secondary text-white">
+                        <tr>
+                            <th>Title</th>
+                            <th>Year</th>
+                            <th>Actress</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Darna</td>
+                            <td>1951</td>
+                            <td>Rosa del Rosario</td>
+                        </tr>
+                        <tr>
+                            <td>Darna at ang Babaing Lawin</td>
+                            <td>1952</td>
+                            <td>Rosa del Rosario</td>
+                        </tr>
+                        <tr>
+                            <td>Si Darna at ang Impakta</td>
+                            <td>1963</td>
+                            <td>Liza Moreno</td>
+                        </tr>
+                        <tr>
+                            <td>Ispuñik vs. Darna</td>
+                            <td>1963</td>
+                            <td>Liza Moreno</td>
+                        </tr>
+                        <tr>
+                            <td>Darna at ang Babaing Tuod</td>
+                            <td>1965</td>
+                            <td>Eva Montes</td>
+                        </tr>
+                        <tr>
+                            <td>Darna at ang Planetman</td>
+                            <td>1969</td>
+                            <td>Gina Pareño</td>
+                        </tr>
+                        <tr>
+                            <td>Lipad, Darna, Lipad!</td>
+                            <td>1973</td>
+                            <td>Vilma Santos</td>
+                        </tr>
+                        <tr>
+                            <td>Darna and the Giants</td>
+                            <td>1973</td>
+                            <td>Vilma Santos</td>
+                        </tr>
+                        <tr>
+                            <td>Darna vs. the Planet Women</td>
+                            <td>1975</td>
+                            <td>Vilma Santos</td>
+                        </tr>
+                        <tr>
+                            <td>Bira, Darna, Bira!</td>
+                            <td>1979</td>
+                            <td>Rio Locsin</td>
+                        </tr>
+                        <tr>
+                            <td>Darna and Ding</td>
+                            <td>1980</td>
+                            <td>Vilma Santos</td>
+                        </tr>
+                        <tr>
+                            <td>Captain Barbell</td>
+                            <td>1986</td>
+                            <td>Sharon Cuneta</td>
+                        </tr>
+                        <tr>
+                            <td>Darna</td>
+                            <td>1991</td>
+                            <td>Nanette Medved</td>
+                        </tr>
+                        <tr>
+                            <td>Mars Ravelo's Darna! Ang Pagbabalik</td>
+                            <td>1994</td>
+                            <td>Anjanette Abayari</td>
+                        </tr>
+                        <tr>
+                            <td>Mars Ravelo's Captain Barbell</td>
+                            <td>2003</td>
+                            <td>Regine Velasquez</td>
+                        </tr>
+                        <tr>
+                            <td>Darna</td>
+                            <td>1977</td>
+                            <td>Lorna Tolentino</td>
+                        </tr>
+                        <tr>
+                            <td>Mars Ravelo's Darna</td>
+                            <td>2005</td>
+                            <td>Angel Locsin</td>
+                        </tr>
+                        <tr>
+                            <td>Mars Ravelo's Darna</td>
+                            <td>2009</td>
+                            <td>Marian Rivera</td>
+                        </tr>
+                        <tr>
+                            <td>Mars Ravelo's Darna</td>
+                            <td>2022-2023</td>
+                            <td>Jane De Leon</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center">Gallery</h2>
+            <p class="lead text-center">
+                <svg width="100%" height="2" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="25%" y1="1" x2="75%" y2="1" stroke="maroon" stroke-width="2" />
+                </svg>
+            </p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="pic/g-1.png" data-lightbox="gallery" data-title="Iza Calzado as Darna">
+                        <div class="gallery-item">
+                            <img src="pic/g-1.png" class="img-fluid mb-5" alt="Gallery Image 1">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="pic/g-2.png" data-lightbox="gallery" data-title="Jane De Leon as Darna">
+                        <div class="gallery-item">
+                            <img src="pic/g-2.png" class="img-fluid mb-5" alt="Gallery Image 2">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="pic/g-3.png" data-lightbox="gallery" data-title="Marian Rivera as Darna">
+                        <div class="gallery-item">
+                            <img src="pic/g-3.png" class="img-fluid mb-5" alt="Gallery Image 3">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="pic/g-4.png" data-lightbox="gallery" data-title="Angel Locsin as Darna">
+                        <div class="gallery-item">
+                            <img src="pic/g-4.png" class="img-fluid mb-5" alt="Gallery Image 4">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="pic/g-5.png" data-lightbox="gallery" data-title="Comic Book Darna">
+                        <div class="gallery-item">
+                            <img src="pic/g-5.png" class="img-fluid mb-5" alt="Gallery Image 5">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="pic/g-6.png" data-lightbox="gallery" data-title="Comic Book Darna-2">
+                        <div class="gallery-item">
+                            <img src="pic/g-6.png" class="img-fluid mb-5" alt="Gallery Image 6">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer text-black text-center py-5">
+        <div class="container">
+            <h3 class="mb-4">Darna</h3>
+            <p>&copy; 2025 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+        integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
