@@ -189,6 +189,16 @@ if (isset($_POST['delete_media'])) {
                     alertify.error("Cancelled");
                 });
         }
+
+        function confirmLogout() {
+            alertify.confirm("Logout", "Are you sure you want to logout?",
+                function() {
+                    window.location.href = "logout.php";
+                },
+                function() {
+                    alertify.error('Logout cancelled');
+                });
+        }
     </script>
 
     <?php if (isset($_SESSION['message'])): ?>

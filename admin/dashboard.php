@@ -156,6 +156,18 @@ if (!isset($_SESSION['admin_id'])) {
         function toggleSidebar() {
             document.getElementById("sidebar").classList.toggle("active");
         }
+
+
+
+        function confirmLogout() {
+            alertify.confirm("Logout", "Are you sure you want to logout?",
+                function() {
+                    window.location.href = "logout.php";
+                },
+                function() {
+                    alertify.error('Logout cancelled');
+                });
+        }
     </script>
 </body>
 

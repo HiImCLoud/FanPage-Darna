@@ -88,6 +88,7 @@ if (isset($_POST['delete_gallery'])) {
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
+    <link rel="shortcut icon" href="../pic/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -217,6 +218,16 @@ if (isset($_POST['delete_gallery'])) {
                 alertify.error("Cancelled");
             });
         }
+
+        function confirmLogout() {
+            alertify.confirm("Logout", "Are you sure you want to logout?",
+                function() {
+                    window.location.href = "logout.php";
+                },
+                function() {
+                    alertify.error('Logout cancelled');
+                });
+        }
     </script>
 
     <?php if (isset($_SESSION['message'])): ?>
@@ -225,6 +236,7 @@ if (isset($_POST['delete_gallery'])) {
         </script>
     <?php unset($_SESSION['message'], $_SESSION['message_type']);
     endif; ?>
+
 </body>
 
 </html>

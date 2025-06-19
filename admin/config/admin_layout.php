@@ -110,7 +110,10 @@ if (!isset($_SESSION['admin_id'])) {
         <a href="media.php"><i class="bi bi-film m-2"></i> Media</a>
         <a href="gallery.php"><i class="bi bi-images m-2"></i> Gallery</a>
         <a href="admin.php"><i class="bi bi-person-gear m-2"></i> Admin</a>
-        <a href="logout.php" onclick="return confirm('Are you sure you want to logout?');"><i class="bi bi-box-arrow-left m-2"></i> Logout</a>
+        <a href="#" onclick="confirmLogout();">
+            <i class="bi bi-box-arrow-left m-2"></i> Logout
+        </a>
+
     </div>
 
     <!-- Header -->
