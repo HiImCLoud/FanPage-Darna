@@ -58,6 +58,7 @@ if (!isset($_SESSION['admin_id'])) {
     <?php include 'config/admin_layout.php'; ?>
 
     <div class="main-content">
+        <h4 class="mb-4">📊 Dashboard</h4>
         <div class="container-fluid mt-4">
             <div class="row g-3">
                 <!-- Total Media -->
